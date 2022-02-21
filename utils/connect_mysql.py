@@ -8,7 +8,7 @@ class Mysql(object):
         self.port = 3306
         self.host = '127.0.0.1'
         self.user = 'root'
-        self.passwd = '590128xzp.'
+        self.passwd = ''
         self.charset = 'utf-8'
         self.conn, self.cursor = self.get_conn(flag)
 
